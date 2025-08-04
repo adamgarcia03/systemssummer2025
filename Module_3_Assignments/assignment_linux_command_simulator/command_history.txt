@@ -1,0 +1,27 @@
+
+$ ls
+[stdout]
+Cargo.lock
+Cargo.toml
+command_history.txt
+src
+target
+
+[stderr]
+
+---
+
+$ ps
+[stdout]
+    PID TTY          TIME CMD
+  57062 pts/7    00:00:00 bash
+  64898 pts/7    00:00:00 assignment_linu
+  65095 pts/7    00:00:00 ps
+
+[stderr]
+
+---
+
+$ abc123
+[error] Failed to execute command: No such file or directory (os error 2)
+---
